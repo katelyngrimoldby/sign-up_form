@@ -9,7 +9,13 @@
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: #ebebeb;
+  background-color: #f6f5f5;
+}
+
+.side {
+  width: 40vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
