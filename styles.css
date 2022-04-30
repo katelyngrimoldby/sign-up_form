@@ -50,12 +50,12 @@ input {
   border-radius: 2px;
   border: none;
 }
+input.invalid {
+  outline: 1px solid red;
+}
 input:focus {
   outline: 1px solid #325233;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
-}
-input.invalid {
-  outline: 1px solid red;
 }
 
 .form::after {

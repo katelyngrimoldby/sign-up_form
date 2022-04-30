@@ -57,13 +57,13 @@ input {
     border-radius: 2px;
     border: none;
 
+    &.invalid {
+        outline: 1px solid red;
+    }
+
     &:focus {
         outline: 1px solid $btn-color;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
-    }
-
-    &.invalid {
-        outline: 1px solid red;
     }
 
 }
